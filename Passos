@@ -1,0 +1,41 @@
+Case - Cancelamento de Clientes
+Você foi contratado por uma empresa com mais de 800 mil clientes para um projeto de Dados. Recentemente a empresa percebeu que da sua base total de clientes, a maioria são clientes inativos, ou seja, que já cancelaram o serviço.
+Precisando melhorar seus resultados ela quer conseguir entender os principais motivos desses cancelamentos e quais as ações mais eficientes para reduzir esse número.
+
+Passo 1: Importar base de dados
+   -> Usar pandas ( Trabalhar com Base de Dados)
+   -> plotly (trabalhar com graficos dinamicos)
+
+Passo 2: Vizualizar a base de dados
+   -> entender quais informações tem disponivel
+   -> procurar os problemas
+   -> colunas inuteis
+   -> informações vazias 
+
+Passo 3: Corrigir os erros da base de dados
+   -> valores vazios - excluir as linhas que têm valores vazios
+   ->Jogar fora informações vazia -> Nan - Not a number - Info vazia 
+   
+Passo 4: Análise dos cancelamentos
+   ->quantas pessoas cancelaram e quantas não cancelaram
+
+Passo 5: Análise da causa dos cancelamentos(como as colunas impactam no cancelamento?)
+   *Causas do cancelamento
+    # Todos os cliente cancelaram no contrato mensal
+      ! Descontos nos contratos Anual
+    # Cancelamento do cliente com mais de 20 dias de atraso
+      ! Criar um sistema de cobrança com 10 dias de atraso
+    # Todos os clientes que ligaram mais de 4x pro call center, cancelaram
+      ! Criar um sistema de alerta para clientes que ligaram mais de 2x
+
+   * Analisar se eu resolver 3 problemas, quanto cai o cancelamento
+
+         -> gráficos/dashboards
+         -> criar o grafico
+         -> exibir o grafico
+         -> clientes do contrato mensal TODOS cancelam
+         -> ofercer desconto nos planos anuais e trimestrais
+         -> clientes que ligam mais do que 4 vezes para o call center, cancelam
+         -> criar um processo para resolver o problema do cliente em no máximo 3 ligações
+         -> clientes que atrasaram mais de 20 dias, cancelaram
+         -> política de resolver atrasos em até 10 dias (equipe financeira)
